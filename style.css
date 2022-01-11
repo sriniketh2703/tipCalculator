@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+*, *::before, *::after {
+    margin: 0%;
+    /* padding: 0%; */
+    box-sizing: border-box;
+}
+
+body, .submit {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body {
+    color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit {
+    font-size: 1.25rem;
+    margin: 1rem 0 0 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 10px dashed white;
+}
+
+#bill-amount, #tip, #tip-amount, #total-amount, #noofpersons {
+    font-size: 1.1rem;
+}
+
+.bill-amount, .tip, .tip-amount, .total-amount, .noofpersons, .text {
+    font-size: 1.3rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.text {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
